@@ -11,7 +11,7 @@ export const userColumns = [
             className="cellImg"
             src={params.row.img || "https://i.ibb.co/MBtjqXQ/no-avatar.gif"}
             alt="avatar"
-          />
+          />{" "}
           {params.row.username}
         </div>
       );
